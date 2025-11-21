@@ -54,7 +54,8 @@ const Hero: React.FC = () => {
 			// Yellow box animation
 			tl.to(backgroundRef.current, {
 				scaleX: 1,
-				duration: 1,
+				autoAlpha: 1,
+				duration: 1.2,
 			});
 
 			// Add a small delay before showing Luma button
@@ -104,9 +105,11 @@ const Hero: React.FC = () => {
 			{/* ✅ Optional yellow box section to reference animation */}
 			<div
 				ref={backgroundRef}
-				className="dark:text-cream-can-200 text-neutral-900 font-semid text-md md:text-xl lg:text-2xl py-6  inline-block self-center text-centermin-w-screen"
+				className="dark:text-cream-can-200 text-wine-berry-950  text-md md:text-xl lg:text-2xl py-6  inline-block self-center text-centermin-w-screen"
 			>
-				<p className="text-center">Welcome to our Open House Event :</p>
+				<p className="text-center font-medium">
+					Welcome to our Open House Event
+				</p>
 				<div className="mt-2 flex gap-4">
 					<FaCalendarDays />
 					<span>25 December 2025</span>
@@ -124,16 +127,16 @@ const Hero: React.FC = () => {
 			{/* ✅ Luma Embed Here */}
 			<div
 				ref={lumaRef}
-				className="mt-8 flex justify-center"
+				className="my-4 flex justify-center"
 			>
 				<a
 					href="https://luma.com/event/evt-0F2MktKbup1EDHy"
-					className="luma-checkout--button text-neutral-900 font-bold text-2xl md:text-3xl px-6 py-4 rounded-lg ring-cream-can-300 ring-2 hover:bg-cream-can-400 hover:scale-105 transition"
+					className="luma-checkout--button  ring-cream-can-300 ring-2"
 					data-luma-action="checkout"
 					data-luma-event-id="evt-0F2MktKbup1EDHy"
 				>
 					{/* <p className="font-medium">Register NOW 🎉</p> */}
-					<div className="flex gap-2 items-center dark:text-cream-can-200 text-neutral-900 font-semid text-md md:text-xl lg:text-2xl">
+					<div className="flex gap-2 items-center dark:text-cream-can-200 font-semi text-md md:text-xl lg:text-2xl text-cream-can-300 ">
 						<FaCodeCommit />
 						<span>Register NOW</span>
 					</div>

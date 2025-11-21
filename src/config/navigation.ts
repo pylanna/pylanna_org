@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPython, FaUser } from "react-icons/fa6"; 
+import { FaPython, FaUserGroup } from "react-icons/fa6";
 
 export type NavItem = {
 	label: string;
@@ -25,7 +25,7 @@ export const mainNav: NavItem[] = [
 	{
 		label: "Team",
 		href: "/team",
-		icon: FaUser,
+		icon: FaUserGroup,
 	},
 	// {
 	// 	label: "Contact",

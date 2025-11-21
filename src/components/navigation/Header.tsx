@@ -13,7 +13,7 @@ const Header: React.FC = () => {
 		"text-wine-berry-700 hover:text-wine-berry-950 transition-colors";
 
 	return (
-		<header className="sticky top-0 z-10 w-full bg-wine-berry-50 dark:bg-neutral-950 shadow-lg py-4 px-8 flex justify-between items-center border-b border-wine-berry-100 dark:border-neutral-600 h-16">
+		<header className="sticky top-0 z-10 w-full bg-wine-berry-50 dark:bg-neutral-950 shadow-lg py-4 px-6 flex justify-between items-center border-b border-wine-berry-100 dark:border-neutral-600 h-16">
 			{/* Logo + Title */}
 			<Link
 				href="/"
@@ -32,7 +32,7 @@ const Header: React.FC = () => {
 			</Link>
 
 			{/* NAVIGATION */}
-			<div className="flex items-center gap-4 text-lg font-medium">
+			<div className="flex items-center gap-6 text-lg font-medium">
 				{/* Desktop view — text labels */}
 				<nav className="text-wine-berry-950 hidden md:flex items-center gap-4">
 					{mainNav.map((item) => (
@@ -47,14 +47,14 @@ const Header: React.FC = () => {
 				</nav>
 
 				{/* Mobile view — icons */}
-				<nav className="flex md:hidden items-center gap-4">
+				<nav className="flex md:hidden items-center gap-6">
 					{mainNav.map((item) => {
 						const Icon = item.icon as React.ComponentType;
 						return (
 							<Link
 								key={item.label}
 								href={item.href}
-								className="text-2xl text-wine-berry-950 dark:text-cream-can-300 hover:text-wine-berry-700 dark:hover:text-cream-can-400 transition-colors"
+								className="text-2xl text-wine-berry-950 dark:text-cream-can-300 hover:text-wine-berry-700 dark:hover:text-cream-can-400 transition-colors "
 								aria-label={item.label}
 							>
 								{Icon ? <Icon /> : item.label[0]}

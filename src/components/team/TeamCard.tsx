@@ -65,7 +65,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
 						href={member.linkedin}
 						target="_blank"
 						rel="noopener noreferrer"
-						className="mt-6 flex items-center justify-center w-6 h-6 rounded-full  text-cream-can-200 hover:bg-cream-can-300 hover:text-neutral-700 transition-colors ring-2"
+						className="mt-6 flex items-center justify-center w-6 h-6 rounded-full  dark:text-cream-can-200 hover:bg-cream-can-300 hover:text-neutral-700 transition-colors ring-2 text-wine-berry-900"
 						aria-label={`LinkedIn profile of ${member.name}`}
 					>
 						<FaLinkedinIn className="text-sm" />

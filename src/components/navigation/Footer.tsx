@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
 					Community of Northern Thailand
 				</p>
 
-				<p className="text-wine-berry-200">
+				<p className="text-wine-berry-200 hidden md:block">
 					A hub for learning, networking, and deepening Python skills.
 				</p>
 
