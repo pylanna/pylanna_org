@@ -136,7 +136,7 @@ const Hero: React.FC = () => {
 					data-luma-event-id="evt-0F2MktKbup1EDHy"
 				>
 					{/* <p className="font-medium">Register NOW 🎉</p> */}
-					<div className="flex gap-2 items-center dark:text-cream-can-200 font-semi text-md md:text-xl lg:text-2xl text-cream-can-300 ">
+					<div className="flex gap-2 items-center dark:text-cream-can-200 font-semi text-md md:text-xl lg:text-2xl text-cream-can-300 px-4 py-2">
 						<FaCodeCommit />
 						<span>Register NOW</span>
 					</div>
