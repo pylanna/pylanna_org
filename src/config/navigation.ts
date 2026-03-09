@@ -11,7 +11,7 @@ export type NavItem = {
 export const mainNav: NavItem[] = [
 	{
 		label: "Meetups",
-		href: "https://luma.com/nehtko39?tk=6eDwg5",
+		href: "https://www.meetup.com/mongodb-usergroup-thailand/events/313289045",
 		icon: FaPython,
 	},
 	// {
