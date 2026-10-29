@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPython, FaUserGroup } from "react-icons/fa6";
+import { FaCalendarDays, FaUserGroup } from "react-icons/fa6";
 
 export type NavItem = {
 	label: string;
@@ -10,9 +10,9 @@ export type NavItem = {
 // 2. Define the main navigation array (for the Header)
 export const mainNav: NavItem[] = [
 	{
-		label: "Meetups",
-		href: "https://www.meetup.com/mongodb-usergroup-thailand/events/313289045",
-		icon: FaPython,
+		label: "Events",
+		href: "/events",
+		icon: FaCalendarDays,
 	},
 	// {
 	// 	label: "Blog",
