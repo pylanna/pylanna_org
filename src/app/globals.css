@@ -70,3 +70,25 @@ body {
 		--foreground: #ededed;
 	}
 }
+
+/* Fade-in for the event hero */
+@keyframes fade-up {
+	from {
+		opacity: 0;
+		transform: translateY(24px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-fade-up {
+	animation: fade-up 0.8s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.animate-fade-up {
+		animation: none;
+	}
+}

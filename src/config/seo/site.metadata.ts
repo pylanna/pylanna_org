@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { PyLannaEvent } from "@/data/events";
 
 // --- Next.js Metadata Export (Essential SEO & OpenGraph) ---
 export const siteMetadata: Metadata = {
@@ -46,3 +47,38 @@ export const siteMetadata: Metadata = {
 		type: "website",
 	},
 };
+
+// Page metadata for the upcoming event; openGraph replaces (not merges with)
+// the site default, so the shared fields are repeated here.
+export function buildEventMetadata(event: PyLannaEvent): Metadata {
+	const title = `${event.title} | PyLanna`;
+	const description = [
+		event.tagline,
+		event.description,
+		event.registration.note,
+	]
+		.filter(Boolean)
+		.join(" · ");
+	const image = event.ogImage ?? "/og-image.png";
+
+	return {
+		title,
+		description,
+		openGraph: {
+			title,
+			description,
+			url: "https://www.pylanna.org",
+			siteName: "PyLanna",
+			images: [
+				{
+					url: `https://www.pylanna.org${image}`,
+					width: 1200,
+					height: 630,
+					alt: event.title,
+				},
+			],
+			locale: "en_US",
+			type: "website",
+		},
+	};
+}
