@@ -61,7 +61,7 @@ export const events: PyLannaEvent[] = [
 			"A full day of developer talks on AI-assisted coding, LLM serving, cloud and observability in Chiang Mai.",
 		date: "2026-12-12",
 		startTime: "09:30",
-		endTime: "17:30",
+		endTime: "16:30",
 		venue: {
 			name: "Science and Technology Park, Chiang Mai University (CMU STeP)",
 			address:
