@@ -58,7 +58,7 @@ export const events: PyLannaEvent[] = [
 		tagline: "NoAI === Not Only AI",
 		kind: "Devs Day",
 		description:
-			"A full day of Software, Database, DevOps, Cloud and Observability sessions for developers in Chiang Mai.",
+			"A full day of developer talks on AI-assisted coding, LLM serving, cloud and observability in Chiang Mai.",
 		date: "2026-12-12",
 		startTime: "09:30",
 		endTime: "17:30",
@@ -78,14 +78,31 @@ export const events: PyLannaEvent[] = [
 		agenda: [
 			{ start: "09:30", end: "10:00", title: "Registration", isBreak: true },
 			{ start: "10:00", end: "10:15", title: "Keynote" },
-			{ start: "10:15", end: "11:15", title: "Software" },
-			{ start: "11:15", end: "12:15", title: "Database" },
-			{ start: "12:15", end: "13:00", title: "Lunch", isBreak: true },
-			{ start: "13:00", end: "14:00", title: "DevOps (CI/CD)" },
-			{ start: "14:00", end: "15:00", title: "Cloud" },
-			{ start: "15:00", end: "15:15", title: "Afternoon tea", isBreak: true },
-			{ start: "15:15", end: "16:15", title: "Observability" },
-			{ start: "16:15", end: "17:30", title: "Swags and Closing", isBreak: true },
+			{
+				start: "10:15",
+				end: "11:05",
+				title: "Not Only AI: Staying in Control When AI Writes the Code",
+			},
+			{
+				start: "11:10",
+				end: "12:00",
+				title: "vLLM: Efficiently Serving Local LLM Model at Scale",
+			},
+			{ start: "12:00", end: "13:00", title: "Lunch", isBreak: true },
+			{ start: "13:00", end: "13:50", title: "Merman Collaborator SIGMA IDP" },
+			{ start: "13:55", end: "14:45", title: "Cloud Solution 101" },
+			{ start: "14:45", end: "15:00", title: "Afternoon tea", isBreak: true },
+			{
+				start: "15:00",
+				end: "15:50",
+				title: "Grafana and Friends (LGTM and Beyond)",
+			},
+			{
+				start: "16:00",
+				end: "16:30",
+				title: "Redeem, Lucky Draw, and Closing",
+				isBreak: true,
+			},
 		],
 		partners: [
 			{

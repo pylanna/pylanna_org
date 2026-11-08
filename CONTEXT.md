@@ -32,7 +32,7 @@ _Avoid_: Archive, old events
 The ordered time slots of one Event, from registration to closing.
 
 **Session**:
-One topic slot in an Agenda, such as Software, Database, DevOps (CI/CD), Cloud or Observability.
+One presented topic slot in an Agenda, such as "Cloud Solution 101". Registration, meals and closing are breaks, not Sessions.
 _Avoid_: Talk, track
 
 **Speaker**:
