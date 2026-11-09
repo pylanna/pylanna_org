@@ -15,7 +15,7 @@ A kind of Event: a short community gathering, usually a few hours.
 A kind of Event: a full-day conference with an agenda of Sessions. The first is CNX Devs Day 2026.
 
 **CNX Devs Day 2026**:
-The Devs Day held on Sat 12 Dec 2026, 09:30–16:30, at CMU STeP, Chiang Mai, with 50 Seats. "CNX" is the Chiang Mai airport code and stands for the city.
+The Devs Day held on Sat 12 Dec 2026, 09:00–16:35, at CMU STeP, Chiang Mai, with 50 Seats. "CNX" is the Chiang Mai airport code and stands for the city.
 _Avoid_: CN Devs Day, CNX DevsDay, Devs Day 2026 (alone)
 
 **Tagline**:
